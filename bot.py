@@ -38,14 +38,14 @@ from TechVJ.bot.clients import initialize_clients
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
-TechVJBot.start()
+Tomautofilter1_bot.start()
 loop = asyncio.get_event_loop()
 
 
 async def start():
     print('\n')
     print('Initalizing Your Bot')
-    bot_info = await TechVJBot.get_me()
+    bot_info = await Tomautofilter1_bot.get_me()
     await initialize_clients()
     for name in files:
         with open(name) as a:
@@ -64,8 +64,8 @@ async def start():
     temp.BANNED_USERS = b_users
     temp.BANNED_CHATS = b_chats
     await Media.ensure_indexes()
-    me = await TechVJBot.get_me()
-    temp.BOT = TechVJBot
+    me = await Tomautofilter1_bot.get_me()
+    temp.BOT = Tomautofilter1_bot
     temp.ME = me.id
     temp.U_NAME = me.username
     temp.B_NAME = me.first_name
