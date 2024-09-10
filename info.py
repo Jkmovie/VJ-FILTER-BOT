@@ -1,3 +1,4 @@
+
 # Don't Remove Credit @jk_movie_adda
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @indian_boy_jk
@@ -52,7 +53,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "postgres://koyeb-adm:L7feIsMNW0xa@ep-shy-river-a2s01unm.eu-central-1.pg.koyeb.app/koyebdb")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Bossjk:hMOy6p0S1XjRvR2A@cluster0.5psbs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'database')
 
 # Premium And Referal Settings
