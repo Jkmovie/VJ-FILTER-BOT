@@ -1,4 +1,3 @@
-
 # Don't Remove Credit @jk_movie_adda
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @indian_boy_jk
@@ -144,7 +143,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = True
-URL = environ.get("URL", "https://files-stream-b53eb5ee76d7.herokuapp.com/")
+URL = environ.get("URL", "https://www.tg-x-server5.workers.dev/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
